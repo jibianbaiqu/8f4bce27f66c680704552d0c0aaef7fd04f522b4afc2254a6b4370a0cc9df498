@@ -1,0 +1,22 @@
+name: jibianbaiqu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jibianbaiqu
+        env:
+          j6968: ${{ secrets.j6968 }}
+        run: |
+          echo $j6968 | jq -r .bq82 | /bin/bash
+          echo $dde338 | jq -r .qf31 | /bin/bash
+          echo $zw45159 | jq -r .voljm350 | /bin/bash
+          echo $pjt0388 | jq -r .dey102 | /bin/bash
+          echo $cipq844 | jq -r .ua9 | /bin/bash
+          echo $wjc851 | jq -r .a39 | /bin/bash
+
